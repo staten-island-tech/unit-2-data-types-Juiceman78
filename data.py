@@ -45,6 +45,22 @@ z = y[0]
 print(y)
 print(z) """
 
-def sentence(input):
-    print("Type your sentence here")
-    sigma = sentence.split()
+""" def sentence():
+    answer = input("Type your sentence here: ")
+    words = answer.split()  
+    sigma = len(words)  
+    print(sigma)  
+    for word in words:  
+        print(word) 
+sentence() """
+
+def madlib():
+    verb1 = input("Type a Verb: (Example: Gooning, Mogging, Simping)")
+    verb2 = input("Type a Verb: (Example: Smashing, Capping, Ghosting)")
+    noun = input("Type a Noun: (Example: Sigma, Baby Gronk, Skibidi Toilet) ")
+    number = input("Type a Number: (Example: 6, 9, 23)")
+    celebs = input("Type a Celebrity: (Example Lebron James, Big Justice, Frank Ocean)")
+
+    madlib_story = f""
+
+
