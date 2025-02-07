@@ -54,17 +54,52 @@ print(z) """
         print(word) 
 sentence() """
 
-def madlib():
-    verb1 = input("Type a Verb: (Example: Gooned, Mogged, Simped)")
-    verb2 = input("Type a Verb: (Example: Smash, Cap, Ghost)")
-    noun = input("Type a Noun: (Example: Sigma, Baby Gronk, Skibidi Toilet) ")
-    number = input("Type a Number: (Example: 6, 9, 23)")
-    celebs = input("Type a Celebrity: (Example Lebron James, Big Justice, Frank Ocean)")
+""" def madlib():
+    verb1 = input("Type a Verb: (Example:Gooned,Mogged,Simped)")
+    verb2 = input("Type a Verb: (Example:Smash,Cap,Ghost)")
+    noun = input("Type a Noun: (Example:Sigma,BabyGronk,SkibidiToilet) ")
+    number = input("Type a Number: (Example: 6,9,23)")
+    celebs = input("Type a Celebrity: (Example:LebronJames,BigJustice,FrankOcean)")
 
-    madlib_story = f"One day {celebs} decided to go to a certain party. They found a красивый {noun} that gave them {number} of big booms. As fast as {celebs} could they {verb1} all around the world. But suddenly {noun} decided to {verb2} right into {celebs}. What a way to show {celebs} love! "
+    madlib_story = f"One day {celebs} decided to go to a certain party. They found a красивый {noun} that gave them {number} big booms. As fast as {celebs} could they {verb1} all around the world. But suddenly {noun} decided to {verb2} right into {celebs}. What a way to show {celebs}'s love! "
 
     print(madlib_story)
-madlib()
+madlib() """
+
+""" x = "test"
+print(f"hello {x}")
+
+temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+""" def oddeven(number):
+    if number % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+
+number = int(input("Enter a number: "))
+oddeven(number)
+ """
+
+def tip():
+    bill = input("How was the service? Bad, Okay, Good, Or Great")
+    if bill == "Bad":
+        tip = "0%"
+    elif bill == "Okay":
+        tip = "15%"
+    elif bill == "Good":
+        tip = "20%"
+    elif bill == "Great":
+        tip = "25%"
+
+        print(f"Suggested tip: {bill}")
+print(tip)
 
 
 
