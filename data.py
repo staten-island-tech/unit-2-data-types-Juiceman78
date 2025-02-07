@@ -55,12 +55,19 @@ print(z) """
 sentence() """
 
 def madlib():
-    verb1 = input("Type a Verb: (Example: Gooning, Mogging, Simping)")
-    verb2 = input("Type a Verb: (Example: Smashing, Capping, Ghosting)")
+    verb1 = input("Type a Verb: (Example: Gooned, Mogged, Simped)")
+    verb2 = input("Type a Verb: (Example: Smash, Cap, Ghost)")
     noun = input("Type a Noun: (Example: Sigma, Baby Gronk, Skibidi Toilet) ")
     number = input("Type a Number: (Example: 6, 9, 23)")
     celebs = input("Type a Celebrity: (Example Lebron James, Big Justice, Frank Ocean)")
 
-    madlib_story = f""
+    madlib_story = f"One day {celebs} decided to go to a certain party. They found a красивый {noun} that gave them {number} of big booms. As fast as {celebs} could they {verb1} all around the world. But suddenly {noun} decided to {verb2} right into {celebs}. What a way to show {celebs} love! "
+
+    print(madlib_story)
+madlib()
+
+
+
+
 
 
