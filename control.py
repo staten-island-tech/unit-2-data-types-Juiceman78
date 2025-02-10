@@ -25,7 +25,7 @@ grade(score) """
         if id: 
             print("Gamble Away")
         else:
-            print("You need Id Vvrification")
+            print("You need Id Verification")
     else:
         print("You're too young") """
 
