@@ -87,7 +87,7 @@ number = int(input("Enter a number: "))
 oddeven(number)
  """
 
-def tip():
+""" def tip():
     bill = input("How was the service? Bad, Okay, Good, Or Great")
     if bill == "Bad":
         tip = "0%"
@@ -98,10 +98,17 @@ def tip():
     elif bill == "Great":
         tip = "25%"
 
-        print(f"Suggested tip: {bill}")
-print(tip)
+    print(f"Suggested tip: {tip}")
+tip() """
 
-
+def Number ():
+    Factors = []
+    Factor = input("Enter a factor: ")
+    if Factor % x == 0:
+        Factors.append(Factor)
+    else:
+        print("This is not a factor")
+Number()
 
 
 
