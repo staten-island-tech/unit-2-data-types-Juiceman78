@@ -101,15 +101,32 @@ oddeven(number)
     print(f"Suggested tip: {tip}")
 tip() """
 
-def Number ():
-    Factors = []
-    Factor = input("Enter a factor: ")
-    if Factor % x == 0:
-        Factors.append(Factor)
-    else:
-        print("This is not a factor")
-Number()
+""" def find_factors():
+    factors = []
+    n = int(input("Please enter a number: "))
+    for i in range(1, n + 1):  
+        if n % i == 0:  
+            factors.append(i)  
+    return factors
 
+print(find_factors()) """
+
+def find_gcf():
+    factors1 = []
+    factors2 = []
+    gcf=[]
+    number1 = int(input("Please enter the 1st number"))
+    number2 = int(input("Please enter the 2nd number"))
+    for i in range (1, number1 + 1 and number2 + 2):
+        if number1 % i == 0 and number2 % i == 0:
+            factors1.append()
+            factors2.append()        
+    for factors in factors1 ():
+        if factors in factors2:
+            gcf.append(factors)
+        
+
+find_gcf()
 
 
 
