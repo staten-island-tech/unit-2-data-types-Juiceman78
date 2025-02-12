@@ -114,19 +114,22 @@ print(find_factors()) """
 def find_gcf():
     factors1 = []
     factors2 = []
-    gcf=[]
-    number1 = int(input("Please enter the 1st number"))
-    number2 = int(input("Please enter the 2nd number"))
-    for i in range (1, number1 + 1 and number2 + 2):
+    gcf = []
+    number1 = int(input("Please enter the 1st number: "))
+    number2 = int(input("Please enter the 2nd number: "))
+
+    # Find common factors by checking divisibility
+    for i in range(1, min(number1, number2) + 1):  # Loop up to the smaller number
         if number1 % i == 0 and number2 % i == 0:
-            factors1.append()
-            factors2.append()        
-    for factors in factors1 ():
-        if factors in factors2:
-            gcf.append(factors)
-        
+            gcf.append(i)  # Directly append common factors to the GCF list
 
+    # Find the greatest common factor (GCF)
+    greatest_common_factor = max(gcf) if gcf else None  # Get the maximum common factor
+
+    # Print the result
+    print(f"The greatest common factor (GCF) of {number1} and {number2} is: {greatest_common_factor}")
+
+# Call the function
 find_gcf()
-
 
 
