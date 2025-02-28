@@ -111,7 +111,7 @@ tip() """
 
 print(find_factors()) """
 
-def find_gcf():
+""" def find_gcf():
     gcf = [] #Defines the variables (PS. Whalen dont nuke my HOS all these notes are for my reference =) 
     number1 = int(input("Please enter the 1st number: ")) #Creates an input and converts into an integer
     number2 = int(input("Please enter the 2nd number: "))
@@ -128,7 +128,7 @@ def find_gcf():
     print(f"The greatest common factor (GCF) of {number1} and {number2} is: {greatest_common_factor}") #Prints the GCF of the 2 numbers
 
 
-find_gcf()
+find_gcf() """
 
 
         
