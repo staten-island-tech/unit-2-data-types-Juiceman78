@@ -111,8 +111,8 @@ tip() """
 
 print(find_factors()) """
 
-""" def find_gcf():
-    gcf = [] #Defines the variables (PS. Whalen dont nuke my HOS all these notes are for my reference =) 
+def find_gcf():
+    gcf = [] #Defines the list  (PS. Whalen dont nuke my HOS all these notes are for my reference =) 
     number1 = int(input("Please enter the 1st number: ")) #Creates an input and converts into an integer
     number2 = int(input("Please enter the 2nd number: "))
 
@@ -121,14 +121,11 @@ print(find_factors()) """
         if number1 % i == 0 and number2 % i == 0: #Creates an if condition which finds the number that has a remainder of 0 in these lists
             gcf.append(i)  #Adds these numbers into the list of Gcf
 
-   
-    greatest_common_factor = max(gcf) if gcf else None #defines the variable as the GCF by using the max command; and if there isn't a number it says there is a none 
+    greatest_common_factor = max(gcf)  #defines the variable as the GCF by using the max command
 
-   
     print(f"The greatest common factor (GCF) of {number1} and {number2} is: {greatest_common_factor}") #Prints the GCF of the 2 numbers
 
-
-find_gcf() """
+find_gcf()
 
 
         
